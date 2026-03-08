@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job-Tracker</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#F1F2F4] py-8 px-15">
+    <header>
+      <h1 class="text-[32px] font-bold">Job Application Tracker</h1>
+      <div
+        class="mt-5 flex flex-col md:flex-col lg:flex-row items-center justify-between gap-5"
+      >
+        <div class="bg-[#F8FAFC] rounded-[8px] p-3 w-full">
+          <h1 class="text-[#323B49] text-[14px] font-medium">Total</h1>
+          <h4
+            id="total-job-number"
+            class="text-[#002C5C] text-[24px] font-bold"
+          >
+            0
+          </h4>
+        </div>
+        <div class="bg-[#F8FAFC] rounded-[8px] p-3 w-full">
+          <h1 class="text-[#323B49] text-[14px] font-medium">Interview</h1>
+          <h4 id="total-interview" class="text-[#10B981] text-[24px] font-bold">
+            0
+          </h4>
+        </div>
+        <div class="bg-[#F8FAFC] rounded-[8px] p-3 w-full">
+          <h1 class="text-[#323B49] text-[14px] font-medium">Rejected</h1>
+          <h4 id="total-rejected" class="text-[#EF4444] text-[24px] font-bold">
+            0
+          </h4>
+        </div>
+      </div>
+      <hr class="mt-8 border-[#E6E7E9]" />
+    </header>
+
+    <main class="mt-5 space-y-1">
+      <div
+        class="flex flex-col md:flex-row lg:flex-row items-center justify-between gap-5"
+      >
+        <h3 class="text-[#002C5C] text-[20px] font-semibold">Available Jobs</h3>
+        <p id="update-job-count" class="text-[#64748B] text-[16px] font-medium">
+          0 Jobs
+        </p>
+      </div>
+      <div
+        class="space-x-2 flex flex-col md:flex-row lg:flex-row items-center gap-5"
+      >
+        <button
+          id="btn-all"
+          class="bg-[#3B82F6] px-[22px] py-[8px] rounded-[4px] text-[12px] font-semibold text-white"
+        >
+          All
+        </button>
+        <button
+          id="btn-interview"
+          class="bg-[#FFFFFF] px-[22px] py-[8px] rounded-[4px] text-[12px] font-medium text-[#64748B] border border-[#F1F2F4]"
+        >
+          Interview
+        </button>
+        <button
+          id="btn-rejected"
+          class="bg-[#FFFFFF] px-[22px] py-[8px] rounded-[4px] text-[12px] font-medium text-[#64748B] border border-[#F1F2F4]"
+        >
+          Rejected
+        </button>
+      </div>
+
+      <div id="jobs-container" class="mt-5 space-y-4">
+        <!-- post!-->
+      </div>
+    
+    </main>
+    <script src="scrip.js"></script>
+  </body>
+</html>
