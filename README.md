@@ -1,8 +1,5 @@
-1️⃣ What is the difference between var, let, and const?
-
-
-
-2️⃣ What is the spread operator (...)?
-3️⃣ What is the difference between map(), filter(), and forEach()?
-4️⃣ What is an arrow function?
-5️⃣ What are template literals?
+1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
+2. How do you create and insert a new element into the DOM?
+3. What is Event Bubbling? And how does it work?
+4. What is Event Delegation in JavaScript? Why is it useful?
+5. What is the difference between preventDefault() and stopPropagation() methods?
