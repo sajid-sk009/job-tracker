@@ -26,4 +26,12 @@ How its work..
 The event travels up, firing listeners on the <div> next, then the <body>, then <html>, and finally document.
 
 4. What is Event Delegation in JavaScript? Why is it useful?
+
+Event Delegation..
+Simply way, Event Delegation is a JavaScript technique where, without  adding event listeners to many individual elements, we add a single event listener to their common parent element.
+Use for Event Delegation..
+Improved Performance and Memory Footprint.
+Handling Dynamic Elements.
+Cleaner and Simpler Code.
+
 5. What is the difference between preventDefault() and stopPropagation() methods?
