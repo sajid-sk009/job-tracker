@@ -6,6 +6,17 @@ querySelector  returns the first element that matches the specified selectors. A
 querySelectorAll returns all matching elements as a NodeList
 
 2. How do you create and insert a new element into the DOM?
+
+
+to create an instant a new element into the DOM.
+First we need to create  HTML file and JS file and connect just js file to HTML file. 
+To Create elements...
+let div = document.createElement("div");
+To Add content...
+div.innerHTML = "<p>this is p tag </p>";
+To Append...
+document.body.appendChild(div);
+
 3. What is Event Bubbling? And how does it work?
 4. What is Event Delegation in JavaScript? Why is it useful?
 5. What is the difference between preventDefault() and stopPropagation() methods?
