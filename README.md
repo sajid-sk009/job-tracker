@@ -35,3 +35,13 @@ Handling Dynamic Elements.
 Cleaner and Simpler Code.
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
+
+event.preventDefault()
+Stops the browser's default behavior.
+Event continues to propagate as usual
+Preventing a form submission.
+
+event.stopPropagation()
+Stops the event from propagating up/down the DOM.
+Event stops moving through the DOM hierarchy.
+Preventing a parent element's event handler from triggering.
